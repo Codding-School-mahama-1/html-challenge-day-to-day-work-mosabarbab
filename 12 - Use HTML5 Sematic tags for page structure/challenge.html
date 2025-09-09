@@ -13,43 +13,56 @@
       <!-- page header -->
       <h1>Welcome to My First HTML5 Page</h1>
       <!-- navigation div -->
-      <div>
+      <div id="nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
     <!-- main content div -->
-    <div>
+    
       <!-- Article div -->
-      <div>
+      <div id="Home" style="width: 100vw;height: 30vh; background-color: rgb(136, 22, 22);">
+        <article>
         <!-- Article sub-heading -->
         <h1>First Article</h1>
+        <a href="#nav">header</a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et est
-          nisi. Donec eget massa vel justo blandit commodo.
+          nisi. Donec eget massa vel justo blandit commodo Lorem, ipsum dolor sit amet
+           consectetur adipisicing elit. Ullam doloremque accusamus iste eos obcaecati 
+           impedit necessitatibus veniam! Labore, harum? Et voluptatum in, magnam exceptur
+            necessitatibus iste repellat. Labore, itaque?
         </p>
+        </article>
       </div>
       <!-- Article div -->
-      <div>
+
+      <div id="About" style="width: 100vw; height: 30vh; background-color: blue;">
+        <article>
         <!-- Article sub-heading -->
         <h1>Second Article</h1>
+        <a href="#nav">headaer</a>
         <p>
           Phasellus ullamcorper, nisi eget sollicitudin ultrices, justo nibh
           mattis urna, eu egestas libero nulla non nisl. Suspendisse iaculis,
           leo a dapibus rutrum, eros ante pulvinar elit, non euismod quam elit
           in elit.
         </p>
+        </article>
       </div>
-    </div>
-    <!-- footer div -->
+    
 
+    <!-- footer div -->
+  <div id="contact" style="width: 100vw; height: 30vh; background-color: blueviolet;">
     <footer>
     <div>
+      <a href="#nav">header</a>
       <p>&copy; My First HTML5 Page. All rights reserved.</p>
     </div>
     </footer>
+  </div>
   </body>
 </html>
