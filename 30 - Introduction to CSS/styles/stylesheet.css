@@ -4,7 +4,7 @@ body {
   display: grid;
   place-items: center;
   /* change the background color to #5fa554 */
-  background: #fff;
+  background: #c91212;
   /* change the text color to #ffffff */
-  color: black;
+  color: rgb(24, 27, 223);
 }
